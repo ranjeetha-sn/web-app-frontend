@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Hello extends Component {
+class Welcome extends Component {
     constructor(props) {
         super(props)
     
@@ -11,14 +11,14 @@ class Hello extends Component {
     
     render() {
         // console.log("props",this.props.obj);
-       
+        console.log("this.props",this.props);
        
         return (
             <div>
-                HELLO Rabjitha
+                HELLO {this.props.location.state}
             </div>
         )
     }
 }
-export default Hello;
+export default Welcome;
 
