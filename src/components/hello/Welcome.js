@@ -15,7 +15,7 @@ class Hello extends Component {
        
         return (
             <div>
-                HELLO Rabjitha
+                HELLO Rabjitha Test
             </div>
         )
     }
